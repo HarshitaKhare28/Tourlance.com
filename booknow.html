@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <!-- Header start-->
+    <header>
+        <nav class ="container">
+            <div class="navbar-brand">
+                <h1>Tourlance</h1>
+            </div>
+            <div class="navbar-nav">
+                <a href="index.html">Home</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="login.html">Login</a>
+                <button onclick="window.location.href='booknow.html'">Book Now</button>
+            </div>
+        </nav>
+    </header>
+    <!-- Header end-->
+
+    <!-- Book Now Form Start -->
+    <center>
+        <div style="height: 700px;" class ="register">
+            <h1 style="padding: 50px;">Book Now</h1>
+            <form class="form">
+                <div class="name">
+                    <div class="i">
+                        <label for="from" class="label-n">From</label><br>
+                        <input type="date" class="input-n">
+                    </div>
+                    <div class="i">
+                        <label for="lname" class="label-n">To</label><br>
+                        <input type="date" class="input-n">
+                    </div>
+                </div><br>
+
+                <div class="name">
+                    <div class="i">
+                        <label for="day" class="label-n">Days</label><br>
+                        <select name="day" class="input-n">
+                            <option value="select">select</option><option value="2">1</option><option value="2">2</option>
+                            <option value="3">3</option><option value="4">4</option><option value="5">5</option>
+                            <option value="6">6</option><option value="7">7</option><option value="8">8</option>
+                            <option value="9">9</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                        </select>
+                    </div>
+                    <div class="i">
+                        <label for="nights" class="label-n">Nights</label><br>
+                        <select name="nights" class="input-n">
+                            <option value="select">select</option><option value="2">1</option><option value="2">2</option>
+                            <option value="3">3</option><option value="4">4</option><option value="5">5</option>
+                            <option value="6">6</option><option value="7">7</option><option value="8">8</option>
+                            <option value="9">9</option><option value="10">10</option><option value="11">11</option>
+                            <option value="12">12</option><option value="13">13</option><option value="14">14</option>
+                            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+                            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="name">
+                    <div class="i">
+                        <label for="fname" class="label-n">First Name</label><br>
+                        <input type="text" class="input-n">
+                    </div>
+                    <div class="i">
+                        <label for="to" class="label-n">Last Name</label><br>
+                        <input type="text" class="input-n">
+                    </div>
+                </div>
+
+                <label for="email" class="label">Email</label><br>
+                <input type="text" class="input-text"><br>
+                <label for="dob" class="label">DOB</label><br>
+                <input type="date" class="input-text"><br>
+                <label for="age" class="label">Age</label>
+                <select name="age" class="input-n">
+                    <option value="select">select</option><option value="0-18yrs">0-18yrs</option>
+                    <option value="30-40yrs">30-40yrs</option><option value="40-50yrs">50-60yrs</option>
+                    <option value="60-70yrs">60-70yrs</option><option value="70-80yrs">70-80yrs</option>
+                    <option value="80-100yrs">80-100yrs</option>
+                </select><br><br>
+                <label for="mnumber" class="label">Mobile Number</label><br>
+                <input type="tel" class="input-text"><br>
+                <label for="dob" class="label">DOB</label><br>
+                <input type="date" class="input-text"><br>
+                <input type="submit" value="Sign up" class="input-button"><br>
+
+            </form>
+        </div>
+    </center>
+    <!-- Book Now Form End -->
+
+    
+</body>
+</html>

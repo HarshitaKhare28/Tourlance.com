@@ -1,0 +1,159 @@
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url(bgimages.jpeg);
+    background-size:cover;
+    background-attachment: fixed;
+    color:antiquewhite;
+    
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.navbar-brand{
+    margin: 10px;
+    margin-right: 50px;
+    color: white;
+}
+.navbar-nav{
+    margin: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    text-align-last: right;
+    flex-grow: 8;
+    
+}
+
+.navbar-nav a{
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: x-large;
+    transition-property: background-color,border-radius;
+    transition-duration: 1s;
+    color: white;
+
+}
+
+.navbar-nav a:hover{
+    background-color:crimson;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: black;
+}
+
+.navbar-nav button{
+    padding: 5px;
+    margin-left:20px ;
+    text-decoration: none;
+    font-size:large;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 1s;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navbar-nav button:hover{
+    background-color: crimson;
+    border-color: crimson;
+}
+
+.coverimg {
+    width: 1100px;
+    height: 500px;
+    transition: 1s;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 4px 4px 8px 4px  rgb(223, 223, 223);
+    border-radius: 10px;
+}
+.coverimg:hover {
+    width: 1200px;
+    height: 550px;
+    box-shadow: 6px 10px 10px 5px rgb(223, 223, 223);
+}
+#offer1 {
+    border-style:solid ;
+    border-radius: 10px;
+    float:left;
+    background-image: linear-gradient(to top left,rgb(214, 4, 46) , rgb(255, 99, 130));
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+#offer2 {
+    margin-left: 200px;
+    float:left;
+    border-style:solid ;
+    border-radius: 10px;
+    background-image: linear-gradient(to top left,rgb(214, 4, 46) , rgb(255, 99, 130));
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+#offer3 {
+    margin-left: 170px;
+    float:left;
+    border-style:solid ;
+    border-radius: 10px;
+    background-image: linear-gradient(to top left,rgb(214, 4, 46) , rgb(255, 99, 130));
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+#offer1:hover,#offer2:hover,#offer3:hover {
+    
+    
+    box-shadow: 0 8px 12px 0  rgb(223, 223, 223);
+    transform: scale(1.05,1.05);
+    color: rgb(255, 255, 255);
+    
+}
+#faqs{
+    margin-top: 130px;
+    background-color:bisque;
+    color: black;
+    border-radius: 10px;
+}
+.faqs1,.faqs2,.faqs3 {
+    margin-left: 50px;
+    margin-right: 100px;
+}
+h2 {
+    color: tomato;
+}
+button {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(6, 251, 255);
+    border-radius: 10px;
+    font-size: medium;
+    transition: 0.3s;
+    
+}
+button:hover {
+    background-color: royalblue;
+    color: aliceblue;
+    transform: scale(1.15,1.15);
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+}
+#image1 {
+    height: 200px;
+    width: 350px;
+    float: right;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#image1:hover {
+    background-image: url(frozen.jpeg);
+    box-shadow: 0 8px 12px 0  rgb(223, 223, 223);
+}
+p {
+    margin-right: 350px;
+    font-size:large;
+}

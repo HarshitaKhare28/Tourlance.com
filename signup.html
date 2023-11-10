@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <!-- Header start--> 
+    <header>
+        <nav class ="container">
+            <div class="navbar-brand">
+                <h1>Tourlance</h1>
+            </div>
+            <div class="navbar-nav">
+                <a href="index.html">Home</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="login.html">Login</a>
+                 <button onclick="window.location.href='booknow.html'">Book Now</button>
+            </div>
+        </nav>
+    </header>
+    <!-- Header end-->
+
+    <br>
+    <!-- Sign Up Form Start -->
+    <center>
+        <div class ="register">
+            <h1 style="padding: 50px;">SIGN UP</h1>
+            <form class="form">
+                <div class="name">
+                    <div class="i">
+                        <label for="fname" class="label-n">First Name</label><br>
+                        <input type="text" class="input-n">
+                    </div>
+                    <div class="i">
+                        <label for="lname" class="label-n">Last Name</label><br>
+                        <input type="text" class="input-n">
+                    </div>
+                </div>
+                <label for="email" class="label">Email</label><br>
+                <input type="text" class="input-text"><br>
+                <label for="password" class="label">Password</label><br>
+                <input type="password" class="input-text"><br>
+                <label for="c-password" class="label">Confirm Password</label><br>
+                <input type="password" class="input-text"><br>
+                <div class="t">
+                    <input type="checkbox">
+                    <h5>I accept the <span style="color: crimson;">Terms of Use</span> & <span style="color:crimson;">Privacy Policy</span></h5><br>
+                </div>
+                <input type="submit" value="Sign up" class="input-button"><br>
+                <div class="dh">
+                    <hr class="hr"><span style="padding:0px 5px 0px 5px;">or sign up with</span><hr class="hr">
+                </div><br>
+                <a href="https://www.google.com"><img src="google.png" alt="google-btn" class="img-btn"></a>
+                <a href="https://www.facebook.com"><img src="facebook.png" alt="facebook-btn" class="img-btn"></a>
+                <h4 style="margin-top: 10px;">Already have an account? <a href="login.html" style="color:#FF0000; text-decoration: none;" >Login</a></h4>
+            </form>
+        </div>
+    </center>
+    <!-- Sign Up Form End -->
+</body>
+</html>
